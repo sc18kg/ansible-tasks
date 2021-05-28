@@ -1,0 +1,11 @@
+- hosts: manager 
+  become: true
+  roles:
+  - swarm
+  - docker-install
+
+- hosts: worker
+  become: true
+  roles:
+  - swarm
+  - worker

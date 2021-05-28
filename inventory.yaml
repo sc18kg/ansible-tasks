@@ -1,0 +1,5 @@
+[manager]
+docker-swarm
+
+[worker]
+docker-worker
